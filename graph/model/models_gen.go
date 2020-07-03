@@ -2,6 +2,10 @@
 
 package model
 
+type Dog struct {
+	Name string `json:"name"`
+}
+
 type NewTodo struct {
 	Text   string `json:"text"`
 	UserID string `json:"userId"`
